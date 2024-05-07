@@ -30,12 +30,12 @@ def run_my_workflow(
     :param output_directory: Output directory, given as a string or path
     """
     with open(input_file1) as f:
-        print(f.read()[:50])
+        print(f.read()[:50])  # noqa
 
     with open(input_file2) as f:
-        print(f.read()[:50])
+        print(f.read()[:50])  # noqa
 
-    print(f"outputting to {output_directory}")
+    print(f"outputting to {output_directory}")  # noqa
 
 
 def run_my_workflow_helper():
